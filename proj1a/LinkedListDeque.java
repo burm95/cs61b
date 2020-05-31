@@ -83,16 +83,4 @@ public class LinkedListDeque<T> {
         }
     }
 
-
-
-    public static void main(String[] args) {
-//        LinkedListDeque <Integer> L=new LinkedListDeque <>(5);
-        LinkedListDeque <Integer> L=new LinkedListDeque <>();
-        L.addFirst(3);
-        L.addLast(7);
-        L.printDeque();
-        LinkedListDeque <Integer> B=new LinkedListDeque<>(L);
-        B.printDeque();
-        System.out.println(L.get(0));
-    }
 }
